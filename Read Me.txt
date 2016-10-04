@@ -1,0 +1,29 @@
+Oct 3 (Week 5)
+A reminder that your company website must satisfy the following content requirements:
+
+company updates/events
+about the company
+how to contact the business
+a multi-product listing
+one product detailed view
+the entire process of purchasing a product
+appropriate means for the user to provide feedback on a product
+As a group, choose one company to focus on. Going forward, you will be working with only one potential company idea.
+
+As a group consolidate your style guide into one document. This should include all the materials required of P01.
+
+As a group set up your dev environment and sync it through git. It should include your consolidated style guide in your files.
+
+As a group build out a sitemap illustrating all the pages you will be building, include layers illustrating:
+
+what elements each page may be using
+any linking between the pages that will be occurring
+the hierarchy of pages
+the titling of pages
+ 
+
+Deliverables due in your Oct 17 (Week 7) lab:
+
+1 consolidated style guide
+proof of synced git environment
+1 sitemap
