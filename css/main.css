@@ -237,6 +237,18 @@ label {
   overflow: auto;
 }
 
+
+/*  
+Implement FLEXBOX GRIDS
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/  */
+.row-flex {
+  display: flex;
+  height: 300px;
+  margin-bottom: 1em;
+/*  clear: both;
+  overflow: auto;*/
+}
+
 .column-single {
   float: left;
   width: 95%;
@@ -258,6 +270,13 @@ label {
   width: 29.75%;
   height: 10em;
   margin: 1em;
+  background-color: #82A1F1;
+}
+
+.column-5{
+  width: 15%;
+  height: 10em;
+  margin: auto;
   background-color: #82A1F1;
 }
 
