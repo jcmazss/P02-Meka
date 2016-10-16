@@ -60,6 +60,58 @@ figure {
 }
 
 
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*
+  VISUAL STYLING
+*/
+
+.royalblue {
+  display:inline-block;
+  text-align: center;
+  color: #FFFFFF;
+  width: 200px;
+  height: 200px;
+  background-color: #3F6FEA;
+}
+
+.portblue {
+  display:inline-block;
+  text-align: center;
+  color: #FFFFFF;
+  width: 200px;
+  height: 200px;
+  background-color: #82A1F1;
+}
+
+.goldenglow {
+  display:inline-block;
+  text-align: center;
+  color: #FFFFFF;
+  width: 200px;
+  height: 200px;
+  background-color: #F7DB7E;
+}
+
+.alto {
+  display:inline-block;
+  text-align: center;
+  color: #FFFFFF;
+  width: 200px;
+  height: 200px;
+  background-color: #D8D8D8;
+}
+
+.nightblack {
+  display:inline-block;
+  text-align: center;
+  color: #FFFFFF;
+  width: 200px;
+  height: 200px;
+  background-color: #000000;
+}
+
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
