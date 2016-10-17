@@ -269,11 +269,9 @@ Implement FLEXBOX GRIDS
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/  */
 .row-flex {
   display: flex;
-/*  height: 300px;*/  
+  flex-wrap: wrap;
+  justify-content: space-around;
   margin-bottom: 1em;
-  min-width: 30%;
-/*  clear: both;
-  overflow: auto;*/
 }
 
 .column-single {
@@ -284,23 +282,24 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/  */
 }
 
 .column-double {
-  width: 48%;
+  width: 40%;
   height: 10em;
   margin: auto;
   background-color: #82A1F1;
 }
 
 .column-triple {
-  width: 32%;
+  width: 30%;
   height: 10em;
   margin: auto;
   background-color: #82A1F1;
 }
 
 .column-5{
-  width: 19%;
-  height: 10em;
+  width: 200px;
+  height: 200px;
   margin: auto;
+  margin-bottom: 2em;
   background-color: #82A1F1;
 }
 
