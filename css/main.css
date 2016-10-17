@@ -59,6 +59,32 @@ figure {
   max-width: 40%;
 }
 
+/*
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}*/
+
+
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
