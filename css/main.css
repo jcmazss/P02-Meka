@@ -168,10 +168,8 @@ li.nav-bar-element a:hover {
 }
 
 /* Styling for the navigation button */
-.button-nav {
+.button-purchase {
   display: inline-block;
-  /*just added float */
-  float: right;
   padding: 1em 5em;
   color: #FFFFFF;
   background-color: #3F6FEA;
@@ -181,7 +179,7 @@ li.nav-bar-element a:hover {
   transition: background-color 0.5s ease-out;
 }
 
-.button-nav:hover, .button-nav:focus {
+.button-purchase:hover, .button-purchase:focus {
   background-color: #999;
 }
 
