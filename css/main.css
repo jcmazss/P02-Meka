@@ -9,14 +9,14 @@ body {
 
 nav {
   padding: 0.5em;
-  border-bottom: 0.15px solid #000000;
+  border-bottom: 0.15em solid #000000;
   overflow: auto;
 }
 
 section:not([id]) {
   margin-bottom: 2em;
   padding-bottom: 2em;
-  border-bottom: 0.15em solid #333;
+  border-bottom: 0.05em solid #000000;
 }
 
 section h1 {
@@ -37,7 +37,6 @@ section h4 {
   margin-top: 0.25em;
   margin-bottom: 0.25em;
 }
-
 
 section p {
   margin-top: 0.25em;
