@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-  padding: 1em;
+  padding: 0.5em;
   border-bottom: 0.15px solid #000000;
   overflow: auto;
 }
@@ -76,7 +76,7 @@ ul.nav-bar {
 li.nav-brand {
   float: left;
   font-weight: bold;
-  font-size: 1.75em;
+  font-size: 1.5em;
   display: block;
   color: #3F6FEA;
   text-align: center;
@@ -253,9 +253,21 @@ label {
 */
 
 /* Styling for the main navigation */
-.nav-main {
-  padding: 1em;
-  font-weight: bold;
+li.nav-bar-example {
+    float: left;
+}
+
+li.nav-bar-example a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.nav-bar-example a:hover {
+    color: #3F6FEA;
+    font-weight: bold;
 }
 
 /* Styling for the purchase button */
