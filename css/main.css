@@ -47,6 +47,7 @@ section p {
 
 p {
   padding-bottom: 0.5em;
+  margin:0;
 }
 
 img {
@@ -115,6 +116,7 @@ li.nav-bar-element a:hover, .active {
 /* Styling for footer bar */
 ul.footer-bar {
   list-style-type: none;
+  position: 0;
   margin: 0;
   padding: 2em;
   overflow: hidden;
