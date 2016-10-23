@@ -7,28 +7,7 @@
 [class^='grid-col-'] {
 	float: left;
 	padding: 0; 
-	
 }
-
-/*.grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3 {
-	width: 100%;
-}*/
-
-/*.grid-col-1of2 {
-	width: 50%;
-}
-
-.grid-col-1of3 {
-	width: 33.33%;
-}
-
-.grid-col-2of3 {
-	width: 66.66%;
-}
-
-.grid-col-1of4 {
-	width: 25%;
-}*/
 
 .grid-col-1of6 {
 	width: 16.66%;

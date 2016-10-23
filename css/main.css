@@ -29,11 +29,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 h4 {
-  font-size: :0.5rem;
+  font-size: :1.15rem;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
 }
@@ -158,6 +158,10 @@ li.nav-bar-element a:hover {
   background-color: #000000;
 }
 
+.full-width-image {
+  
+}
+
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -238,7 +242,7 @@ label {
 }
 
 .heading-3 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 /*Styling for paragraph*/
