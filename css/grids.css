@@ -10,9 +10,29 @@
 	padding-left: 2.5em; 
 }
 
-.grid-col-1of6 {
-	width: 16.66%;
+/* 5-COLUMN GRID SYSTEM */
+
+.grid-col-1of5 {
+	width: 20%;
 }
+
+.grid-col-2of6 {
+	width: 40%;
+}
+
+.grid-col-3of6 {
+	width: 60%;
+}
+
+.grid-col-4of6 {
+	width: 80%;
+}
+
+.grid-col-5of6 {
+	width: 100%;
+}
+
+/* 6-COLUMN GRID SYSTEM */
 
 .grid-col-1of6 {
 	width: 16.66%;

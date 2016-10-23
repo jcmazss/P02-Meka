@@ -64,13 +64,14 @@ section code {
 
 figure {
   max-width: 100%;
+  margin:0;
   float:left;
 }
 
 .main-content {
-  margin: 2em;  
-/*  overflow: auto;
-*/}
+  margin: 1em;  
+  overflow: auto;
+}
 
 /* Styling for navigation bar */
 ul.nav-bar {
@@ -117,7 +118,7 @@ ul.footer-bar {
   margin: 0;
   padding: 2em;
   overflow: hidden;
-  background-color: #2C2B2B;
+  background-color: #2C2B2B;  
 }
 
 li.footer-bar-element {
@@ -235,6 +236,12 @@ li.subscribe-component {
   background-color: #3F6FEA;
   border: 1em solid white;
   margin-top: 1em;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.category-box:hover, .category-box:focus {
+  background-color: #999;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
