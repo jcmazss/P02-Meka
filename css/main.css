@@ -9,7 +9,7 @@ body {
 
 nav {
   padding: 0.5em;
-  border-bottom: 0.15em solid #000000;
+  border-bottom: 0.1em solid #000000;
   overflow: auto;
 }
 
@@ -158,10 +158,13 @@ li.nav-bar-element a:hover {
   background-color: #000000;
 }
 
-.full-width-image {
-  
+.icon-placeholder {
+  border-radius: 50%;
+  width: 7em;
+  height: 7em; 
+  background:#F7DB7E;
+  margin: 0 auto;
 }
-
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -250,6 +253,8 @@ label {
   text-align: center;
 }
 
+
+
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -273,6 +278,13 @@ li.nav-bar-example a {
 li.nav-bar-example a:hover {
     color: #3F6FEA;
     font-weight: bold;
+}
+
+/* Styling for the features section */
+.feature-section {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  text-align: center;
 }
 
 /* Styling for the purchase button */

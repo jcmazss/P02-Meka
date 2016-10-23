@@ -13,7 +13,7 @@
 	width: 16.66%;
 }
 
-.grid-col-2of6 {
+.grid-col-2of6, .grid-col-1of3 {
 	width: 33.33%;
 }
 
@@ -21,7 +21,7 @@
 	width: 49.99%;
 }
 
-.grid-col-4of6 {
+.grid-col-4of6, .grid-col-2of3  {
 	width: 66.66%;
 }
 
@@ -29,7 +29,7 @@
 	width: 83.33%;
 }
 
-.grid-col-6of6 {
+.grid-col-6of6, .grid-col-3of3  {
 	width: 100%;
 }
 
