@@ -44,8 +44,7 @@ section p {
 }
 
 p {
-/*  max-width: 60%;
-*/  padding-bottom: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 img {
@@ -229,24 +228,23 @@ label {
 
 /* Styling for headers */
 .heading-1 {
-  font-size: 48px;
+  font-size: 2rem;
   font-weight: bolder;
 }
 
 .heading-2 {
-  font-size: 32px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .heading-3 {
-  font-size: 24px;
+  font-size: 1rem;
 }
 
 /*Styling for paragraph*/
-.paragraph {
-  max-width: 50%;
+.center-text {
+  text-align: center;
 }
-
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
