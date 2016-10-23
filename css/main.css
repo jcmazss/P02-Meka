@@ -393,6 +393,10 @@ li.nav-bar-example a:hover {
 }
 
 /* Styling for the product view */
+.product-title h2 {
+  margin-bottom:0;
+}
+
 .product-view {
   text-align: left;
   padding-bottom: 2em;
