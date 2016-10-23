@@ -116,7 +116,6 @@ li.nav-bar-element a:hover, .active {
 /* Styling for footer bar */
 ul.footer-bar {
   list-style-type: none;
-  position: 0;
   margin: 0;
   padding: 2em;
   overflow: hidden;
@@ -396,6 +395,7 @@ li.nav-bar-example a:hover {
 /* Styling for the product view */
 .product-view {
   text-align: left;
+  padding-bottom: 2em;
 }
 
 /* Styling for the purchase button */
