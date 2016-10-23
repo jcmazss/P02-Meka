@@ -6,8 +6,12 @@
 
 [class^='grid-col-'] {
 	float: left;
-	padding-right: 2em; 
-	padding-left: 2em; 
+	padding-right: 2.5em; 
+	padding-left: 2.5em; 
+}
+
+.grid-col-1of6 {
+	width: 16.66%;
 }
 
 .grid-col-1of6 {
