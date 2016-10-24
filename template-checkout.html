@@ -37,79 +37,110 @@
 
 			<!-- Cart Banner -->
 			<div class="grid-col-6of6 cart">
-				<h1> Cart </h1> 
+				<h1> Checkout </h1> 
 			</div>	
 
+			<div class="grid-col-3of6 checkout , cart-left">
+				<h2>Cart</h2>
+				<div class="checkout-module">
+					<div class="checkout-item">
 
+						<img src="img/products/double-x-gundam.jpg" alt="Hyraku Shiki Gundam">
 
-			<div class="grid-col-3of6 checkout-title">
-				<div class="checkout-item">
+						<div class="checkout-content">
+							<h2> <a href="#">ZGMF-X10A Freedom Gundam Ver. 2.0</a> </h2>
+							<p> MG 1/100 </p>
+				    		<h3> $62.99 </h3>
 
-					<img src="img/products/double-x-gundam.jpg" alt="Hyraku Shiki Gundam">
+				    		<form class="checkout-quantity">
+				    			Quantity:
+				    			<input type="number" name="quantity" min="0" max="25" step="1" value="1">
+				    		</form>
+			    		</div>
+					</div>
 
-					<div class="checkout-content">
-						<h2> <a href="#">ZGMF-X10A Freedom Gundam Ver. 2.0</a> </h2>
-						<p> MG 1/100 </p>
-			    		<h3> $62.99 </h3>
+					<div class="checkout-item">
 
-			    		<form class="checkout-quantity">
-			    			Quantity:
-			    			<input type="number" name="quantity" min="0" max="25" step="1" value="1">
-			    		</form>
-		    		</div>
+						<img src="img/products/double-x-gundam.jpg" alt="Hyraku Shiki Gundam">
+
+						<div class="checkout-content">
+							<h2> <a href="#">ZGMF-X10A Freedom Gundam Ver. 2.0</a> </h2>
+							<p> MG 1/100 </p>
+				    		<h3> $62.99 </h3>
+
+				    		<form class="checkout-quantity">
+				    			Quantity:
+				    			<input type="number" name="quantity" min="0" max="25" step="1" value="1">
+				    		</form>
+			    		</div>
+					</div>
+
+					<div class="checkout-item">
+
+						<img src="img/products/double-x-gundam.jpg" alt="Hyraku Shiki Gundam">
+
+						<div class="checkout-content">
+							<h2> <a href="#">ZGMF-X10A Freedom Gundam Ver. 2.0</a> </h2>
+							<p> MG 1/100 </p>
+				    		<h3> $62.99 </h3>
+
+				    		<form class="checkout-quantity">
+				    			Quantity:
+				    			<input type="number" name="quantity" min="0" max="25" step="1" value="1">
+				    		</form>
+			    		</div>
+					</div>
 				</div>
 
-				<div class="checkout-item">
+				<div class="checkout-module">
+					<div class="checkout order-summary">
+						<h2>Order Summary</h2>
+					</div>
 
-					<img src="img/products/double-x-gundam.jpg" alt="Hyraku Shiki Gundam">
-
-					<div class="checkout-content">
-						<h2> <a href="#">ZGMF-X10A Freedom Gundam Ver. 2.0</a> </h2>
-						<p> MG 1/100 </p>
-			    		<h3> $62.99 </h3>
-		    		</div>
+					<button class="button-purchase" type="button" onclick="alert('Purchased some stuff')">Confirm Payment</button>
 				</div>
-
-				<div class="checkout-item">
-
-					<img src="img/products/double-x-gundam.jpg" alt="Hyraku Shiki Gundam">
-
-					<div class="checkout-content">
-						<h2> <a href="#">ZGMF-X10A Freedom Gundam Ver. 2.0</a> </h2>
-						<p> MG 1/100 </p>
-			    		<h3> $62.99 </h3>
-		    		</div>
-				</div>
-
 			</div>
 
 			<!-- Product Name -->
-			<div class="grid-col-2of6">
-				<h2> ZGMF-X10A Freedom Gundam Ver. 2.0 </h2>
-				<p> MG 1/100 </p>
-		    	<h3> $62.99 </h3>
+			<div class="grid-col-3of6 checkout , cart-right">
+				<div class="checkout-module">
+					<div class="checkout-adjust-details">
+						<h2> Shipping Details </h2>
+						<a href="#">Change</a>
+					</div>
 
-		    	<!-- Product Description -->
-				<p>
-					Featuring the advanced MS Joint for ultimate range of motion and mechanical detail, this realistic 
-					version of the Freedom contains exchangeable hands for holding different weaponry, and the ability 
-					to be put in iconic beam spam poses. Special marking stickers are provided to simulate realistic 
-					placement of maintenance hatches and ports. Panel lines designed to show separation of metal panels 
-					on the "real" machine. 
-				</p>
-				<p>					
-					Model kit includes: <em> beam saber x2, beam rifle x1, shield x1, railguns x2, plasma canons x2. </em>	
-				</p>	
+					<h3>Shipping Address</h3>
+					<p> FIRST NAME / LAST NAME </p>
+					<p> #123-4567 LONG, ADDRESS, CA 123 ABC</p>
 
-				<!-- Add to Cart Section -->
-				<div class="grid-col-1of6"> 
+			    	<h3> Delivery Method </h3>
+			    	<form>
+					  <input type="checkbox" name="shipping1" value="s1">
+					  <p>$11.00 - One Day Shipping </br>
+					  Arrives on Thursday (October 4, 2016)</p>
+					</form>
 
+					<form>
+					  <input type="checkbox" name="shipping2" value="s2">
+					  <p>$11.00 - One Day Shipping </br>
+					  Arrives on Thursday (October 4, 2016)</p>
+					</form>
 				</div>
 
 
-			</div>
+				<div class="checkout-module">
+					<div class="checkout-adjust-details">
+						<h2> Payment Method </h2>
+						<a href="#">Change</a>
+					</div>
 
-	
+					<h3>Billing Address</h3>
+					<p> FIRST NAME / LAST NAME </p>
+					<p> #123-4567 LONG, ADDRESS, CA 123 ABC</p>
+
+			    	
+				</div>
+			</div>
 		</div>
 
 	<!-- FOOTER BAR - Additional information-->
