@@ -265,6 +265,7 @@ li.subscribe-component {
   background-color: #3F6FEA;
   border-radius: 0.15em;
   text-decoration: none;
+  text-align: center;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
