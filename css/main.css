@@ -523,6 +523,17 @@ margin-bottom: 1em;
   width: 100%;
 }
 
+/*Order details*/
+
+.order-item h3{
+    margin: 0;
+}
+
+.order-item p{
+  margin: 0;
+  margin-top: 0.5em;
+}
+
 /*Contact us form*/
 
 .form-contact {
@@ -540,6 +551,7 @@ margin-bottom: 1em;
 
 .form-contact textarea {
   width: 100%;
+  min-height: 7em;
 }
 
 /* Styling for the purchase button */
@@ -605,4 +617,9 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/  */
   background-color: #82A1F1;
 }
 
-
+.separator{
+  margin: 0;
+  padding: 0;
+  border-bottom: 0.05em solid #D8D8D8;
+  background-color: purple;
+}
