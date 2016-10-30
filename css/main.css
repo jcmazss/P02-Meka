@@ -220,7 +220,7 @@ ul.nav-bar li.nav-bar-element a:hover, .active {
   font-weight: bold;
 }
 
-@media screen and (max-width: 718px){
+@media screen and (max-width: 48.75em){
     ul.nav-bar li.nav-brand {
       float: none;
       padding:0;
@@ -229,6 +229,10 @@ ul.nav-bar li.nav-bar-element a:hover, .active {
     ul.nav-bar li.nav-bar-element {
       float: none;
       padding:0;
+    }
+
+    body {
+      padding-top: 1rem;
     }
 
 }
