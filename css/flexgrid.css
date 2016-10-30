@@ -1,10 +1,13 @@
 
 /* 
-	In here we define both our regular grid and our flexbox	grid to ensure that we have a website that works at a base level, and then we progressively enhance if possible.
+	In here we define both our regular grid and our flexbox	grid to ensure that we have a website that works at a 
+	base level, and then we progressively enhance if possible.
 
-	For the default grid structure, this tutorial draws from "Don't Overthink Grids" available at http://css-tricks.com/dont-overthink-it-grids/
+	For the default grid structure, this tutorial draws from "Don't Overthink Grids" available at 
+	http://css-tricks.com/dont-overthink-it-grids/
 	
-	For more on flexbox, I highly recommend "A Guide to Flexbox": http://css-tricks.com/snippets/css/a-guide-to-flexbox/
+	For more on flexbox, I highly recommend "A Guide to Flexbox": 
+	http://css-tricks.com/snippets/css/a-guide-to-flexbox/
 */
 
 
@@ -21,7 +24,8 @@
 }
 
 /*
-	Knowing that Modernizr will add in a .flexbox class to <body> for browsers that support flexbox, we can be more specific in our selection and add our use of flexbox to our existing grid structure.
+	Knowing that Modernizr will add in a .flexbox class to <body> for browsers that support flexbox, we can 
+	be more specific in our selection and add our use of flexbox to our existing grid structure.
 */
 .flexbox .grid-row {
 	display: -webkit-flex; 
@@ -46,7 +50,8 @@
 }
 
 /*
-	Here we override the floating of our columns to ensure that our grid uses the flexbox model correctly when loading our page.
+	Here we override the floating of our columns to ensure that our grid uses the flexbox model correctly
+	when loading our page.
 */
 .flexbox [class^='grid-col-'] {
 	float: none;
@@ -59,7 +64,8 @@
 }
 
 /*
-	Here we end up using our .flexbox class and some more specificity to set the flexing of our navigation, and override the width specified by .grid-col-2of10 by default.
+	Here we end up using our .flexbox class and some more specificity to set the flexing of our navigation, 
+	and override the width specified by .grid-col-2of10 by default.
 */
 .flexbox .grid-col-2of10 {
 	-webkit-flex-grow: 1;
@@ -77,7 +83,8 @@
 	}
 
 	/*
-		Overriding our 2/10 column with specification earlier to make sure that the width is still determined by the flexbox.
+		Overriding our 2/10 column with specification earlier to make sure that the width is still determined 
+		by the flexbox.
 	*/
 	.flexbox .grid-col-2of10 {
 		width: auto;
