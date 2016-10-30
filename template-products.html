@@ -15,12 +15,14 @@
 		<link rel="stylesheet" href="css/main.css"> 
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/grids.css"> 
+		<link rel="stylesheet" href="css/flexgrid.css">
+
 	</head>
 
 	<body>
 
 	<!-- NAVIGATION BAR - Tap to go to each section within the webpage-->
-		<nav>
+<!-- 		<nav>
 			<ul class="nav-bar">	
 				<a href="template-products.html"> <li class="nav-brand">Meka.</li> </a>
 				<li class="nav-bar-element"><a href="template-checkout.html">Cart</a></li>
@@ -29,7 +31,31 @@
 		        <li class="nav-bar-element"><a href="template-events.html">Workshops</a></li>
 				<li class="nav-bar-element active"><a href="template-products.html">Products</a> </li>
 	    	</ul>
-		</nav>
+		</nav> -->
+
+		 <nav class="grid-row">
+            
+	        <div class="grid-col-2of10">
+	          <a href="#kittens">To the kittens!</a>
+	        </div>
+
+	        <div class="grid-col-2of10">
+	          <a href="#puppies" class="green">To the puppies!</a>
+	        </div>
+
+	        <div class="grid-col-2of10">
+	          <a href="http://placekitten.com" class="orange">placekitten</a>
+	        </div>
+
+	        <div class="grid-col-2of10">
+	          <a href="http://placepuppy.it" class="purple">placepuppy</a>
+	        </div>
+
+	        <div class="grid-col-2of10">
+	          <a href="http://placehold.it" class="red">placehold</a>
+	        </div>
+
+    	</nav>
 
 	<!-- INTRO TEXT - Quick brief/summary of project requirements -->
 
@@ -257,6 +283,9 @@
 				<input type="text" placeholder="Your email address">
 			</li>
     	</ul>
+
+    <!-- JAVASCRIPT -->
+    	<script src="js/modernizr.js"></script>
 
 	</body>
 
