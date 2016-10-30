@@ -73,7 +73,7 @@ body {
 	padding-top: 5rem;
 }
 
-
+/* Media Query for */
 @media (max-width: 48.75em) {
 
 	.grid-col-1of6 {
