@@ -191,7 +191,7 @@ ul.nav-bar {
   border-bottom: 0.05em solid #D8D8D8;
 }
 
-ul.nav-bar li.nav-brand {
+li.nav-brand {
   float: left;
   font-weight: bold;
   font-size: 1.5em;
@@ -202,12 +202,12 @@ ul.nav-bar li.nav-brand {
   text-decoration: none;
 }
 
-ul.nav-bar li.nav-bar-element {
+li.nav-bar-element {
   float: right;
   padding: 1em;
 }
 
-ul.nav-bar li.nav-bar-element a {
+li.nav-bar-element a {
   display: block;
   color: black;
   text-align: center;
@@ -215,7 +215,7 @@ ul.nav-bar li.nav-bar-element a {
   text-decoration: none;
 }
 
-ul.nav-bar li.nav-bar-element a:hover, .active {
+li.nav-bar-element a:hover, .active {
   color: #3F6FEA;
   font-weight: bold;
 }
@@ -231,12 +231,11 @@ ul.nav-bar li.nav-bar-element a:hover, .active {
       padding:0;
     }
 
-    body {
-      padding-top: 1rem;
+    div.main-content {
+      padding-top: 12em;
     }
 
 }
-
 
 /* 
   End Navigation Bar
