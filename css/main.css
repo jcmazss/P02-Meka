@@ -1,7 +1,8 @@
 /*
   GENERAL WEBPAGE STYLING 
   Default styling for the webpages
-*/
+*/  
+
 
 body {
   font-family: "Avenir", sans-serif;
@@ -217,6 +218,23 @@ li.nav-bar-element a {
 li.nav-bar-element a:hover, .active {
   color: #3F6FEA;
   font-weight: bold;
+}
+
+@media screen and (max-width: 48.75em){
+    ul.nav-bar li.nav-brand {
+      float: none;
+      padding:0;
+      text-decoration: none;
+    }
+    ul.nav-bar li.nav-bar-element {
+      float: none;
+      padding:0;
+    }
+
+    div.main-content {
+      padding-top: 12em;
+    }
+
 }
 
 /* 
@@ -613,7 +631,8 @@ ul.footer-bar {
   margin: 0;
   padding: 2em;
   overflow: hidden;
-  background-color: #2C2B2B;  
+  background-color: #2C2B2B;
+  z-index: 1;  
 }
 
 li.footer-bar-element {
@@ -638,4 +657,3 @@ li.subscribe-component {
 
 /*
   End Footer Bar
-*/
