@@ -348,8 +348,38 @@ input[type=text] {
     border-right: none;
   }
 }
+
+.order-item h3{
+    margin: 0;
+}
+
+.order-item p{
+  margin: 0;
+  margin-top: 0.5em;
+}
 /*  
   End template-account
+*/
+
+/*
+  Styling for purchase-confirmation.html
+*/
+
+.purchase-thanks {
+  margin:0;
+  padding:0;
+  min-height: 30em;
+  width: 100%;
+  background-color: royalblue;
+}
+
+.purchase-thanks h2, p {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*
+  End purchase-confirmation.html
 */
 
 
@@ -531,16 +561,7 @@ margin-bottom: 1em;
   width: 100%;
 }
 
-/*Order details*/
 
-.order-item h3{
-    margin: 0;
-}
-
-.order-item p{
-  margin: 0;
-  margin-top: 0.5em;
-}
 
 /*
   Template-About Contact us form
