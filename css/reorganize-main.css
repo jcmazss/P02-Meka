@@ -289,6 +289,35 @@ input[type=text] {
 }
 /* End Text Input Field */
 
+/* 
+  Forms styling
+*/
+
+.general-forms fieldset{
+  border: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.general-forms input {
+/*  float: left;*/
+}
+
+.general-forms form {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.general-forms form p {
+  margin-left: 1.5em;
+}
+
+/* 
+  End of Forms styling 
+*/
+
 /* Divder box visual styling */
 
 .divider-bottom {
@@ -420,27 +449,6 @@ li.nav-bar-example a:hover {
   margin: 0;
   border-bottom: 0.05em solid #D8D8D8;
   padding-bottom: 1.5em;
-}
-
-.checkout-module fieldset{
-  border: none;
-  margin: 0;
-  padding: 0;
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-.checkout-module input {
-/*  float: left;*/
-}
-
-.checkout-module form {
-  margin: 0;
-  margin-bottom: 1em;
-}
-
-.checkout-module form p {
-  margin-left: 1.5em;
 }
 
 .checkout-item{
