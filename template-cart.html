@@ -142,10 +142,32 @@
 					<p>	<strong> Shipping & Handling: </strong> $11.00</p>
 					<h3> Total: $124.32 </h3>
 
-					<button class="button-purchase" type="button" onclick="alert('Thank you for purchasing from Meka')">Confirm Payment</button>
+				<!-- Confirm Button -->
+					<button id="myBtn" class="button-purchase" type="button">Confirm Payment</button>
+
+				<!-- Thank You Popup-->
+					<div id="myModal" class="modal">
+
+					  <div class="modal-content">
+					    <div class="modal-header">
+					      <span class="close">×</span>
+					      <h3>Thank you for your purchase</h3>
+					    </div>
+					    <div class="modal-body">
+					      <p>
+					      	Feel free to write your review for our products. It would be helpful to us and your fellow customers. Cheers!
+					      </p>
+					    </div>
+					  </div>
+
+					</div>
+
 				</div>
 			</div>
 		</div>
+
+		<!-- Calling javascript for modal popup -->
+		<script src="js/modal.js"></script>
 
 	<!-- FOOTER BAR - Additional information-->
 		<ul class="footer-bar">	
@@ -159,6 +181,7 @@
 				<input type="text" placeholder="Your email address">
 			</li>
     	</ul>
+
 	</body>
 
 </html>
