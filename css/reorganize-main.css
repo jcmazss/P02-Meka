@@ -337,17 +337,14 @@ input[type=text] {
 */
 
 /*
-  template-account
+  template-account.html
 */
-
 @media (max-width: 48.75em) {
 
   .divider-left {  
     border-right: none;
   }
 }
-
-
 /*  
   template-account
 */
