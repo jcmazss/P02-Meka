@@ -1,4 +1,4 @@
-/*
+
   GENERAL WEBPAGE STYLING 
   Default styling for the webpages
 */
@@ -226,6 +226,26 @@ li.nav-bar-element a:hover, .active {
 /*
   INTERACTIVE ELEMENTS
 */
+
+/* Styling for star rating*/ 
+/*https://css-tricks.com/star-ratings/*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+  color: #F7DB7E;
+}
 
 /* Styling for popup modal */
 .modal {
@@ -754,4 +774,3 @@ li.subscribe-component {
 
 /*
   End Footer Bar
-*/
