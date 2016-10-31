@@ -318,7 +318,9 @@ input[type=text] {
   End of Forms styling 
 */
 
-/* Divder box visual styling */
+/* 
+  Divder box visual styling 
+*/
 
 .divider-bottom {
   color: #392f28;  
@@ -330,7 +332,25 @@ input[type=text] {
   border-right: 0.05em solid #D8D8D8;
 }
 
-/* End Divider box */
+/* 
+  End Divider box 
+*/
+
+/*
+  template-account
+*/
+
+@media (max-width: 48.75em) {
+
+  .divider-left {  
+    border-right: none;
+  }
+}
+
+
+/*  
+  template-account
+*/
 
 
 /*
