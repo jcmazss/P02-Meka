@@ -160,23 +160,20 @@ figure {
 
 .category-box {
   display:inline-block;
-  height: 15em;
   background-color: #3F6FEA;
   border: 1em solid white;
+  padding: 70px 0;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
 
 .category-box:hover, .category-box:focus {
-  background-color: #999;
+  background-color: #F7DB7E;
 }
 
 .category-box h3 {
   text-align: center;
   color: white;
-  margin-top: 4em;
-  margin-bottom: 4em;
-
 }
 
 /*
