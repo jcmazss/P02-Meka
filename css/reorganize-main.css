@@ -458,28 +458,6 @@ input[type=text] {
 */
 
 /*
-  Styling for purchase-confirmation.html
-*/
-
-.purchase-thanks {
-  margin:0;
-  padding:0;
-  min-height: 30em;
-  width: 100%;
-  background-color: royalblue;
-}
-
-.purchase-thanks h2, p {
-  text-align: center;
-  vertical-align: middle;
-}
-
-/*
-  End purchase-confirmation.html
-*/
-
-
-/*
   TEXT STYLING
 */
 
