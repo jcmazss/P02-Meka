@@ -545,6 +545,14 @@ li.nav-bar-example a:hover {
   padding-bottom: 2em;
 }
 
+.product-header {
+
+}
+
+.product-content {
+  background-color: black;
+}
+
 /* 
   Styling template-cart.html 
 */
