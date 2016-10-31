@@ -160,18 +160,20 @@ figure {
 
 .category-box {
   display:inline-block;
-  text-align: center;
-  color: #FFFFFF;
-  height: 15em;
   background-color: #3F6FEA;
   border: 1em solid white;
-  margin-top: 1em;
+  padding: 70px 0;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
 
 .category-box:hover, .category-box:focus {
-  background-color: #999;
+  background-color: #F7DB7E;
+}
+
+.category-box h3 {
+  text-align: center;
+  color: white;
 }
 
 /*
@@ -244,6 +246,102 @@ li.nav-bar-element a:hover, .active {
 /*
   INTERACTIVE ELEMENTS
 */
+
+/* Styling for star rating*/
+/*https://css-tricks.com/star-ratings/*/
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+  color: #F7DB7E;
+}
+
+
+/* Styling for popup modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 40%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #3F6FEA;
+  color: white;
+}
+
+.modal-header h3 {
+  text-align: center;
+  margin:0;
+  padding:1em;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-body p {
+  padding-top: 1em;
+  text-align: center;
+}
 
 /* Styling for the in-text link */
 .text-link {
