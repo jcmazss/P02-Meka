@@ -546,11 +546,11 @@ li.nav-bar-example a:hover {
   }
 
   .grid-col-1of5 {
-    width: 18%;
+    width: 20%;
     margin: 0;
     padding: 0;
-    margin-left: 0.25em;
-    margin-right: 0.25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
   }
 
   .grid-col-5of6{
