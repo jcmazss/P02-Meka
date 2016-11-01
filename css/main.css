@@ -531,12 +531,13 @@ li.nav-bar-example a:hover {
 }
 
 .product-content {
-  height: 100%;
+
 }
 
 @media (max-width: 48.75em) {
   .product-header h1 {
     font-size: 1.25em;
+
   }
 
   .product-header h2 {
@@ -544,16 +545,37 @@ li.nav-bar-example a:hover {
     text-align: right;
   }
 
-
   .grid-col-1of5 {
-    width: 33%;
+    width: 18%;
+    margin: 0;
+    padding: 0;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
+
+  .grid-col-5of6{
+    margin: 0;
+    padding: 0;
   }
 
   .product-view {
-  text-align: left;
-  padding-bottom: 2em;
-}
+    text-align: left;
+    padding-bottom: 2em;
+  }
 
+  .product-view h4 {
+    font-size: 1em;
+  }
+
+  .product-view p {
+    font-size: 0.75em;
+  }
+
+/*  .product-content{
+    padding: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+  }*/
 }
 
 
