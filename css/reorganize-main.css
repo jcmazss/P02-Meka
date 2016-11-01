@@ -219,6 +219,22 @@ li.nav-bar-element a:hover, .active {
   font-weight: bold;
 }
 
+@media screen and (max-width: 48.75em){
+    ul.nav-bar li.nav-brand {
+      float: none;
+      padding:0;
+      text-decoration: none;
+    }
+    ul.nav-bar li.nav-bar-element {
+      float: none;
+      padding:0;
+    }
+
+    div.main-content {
+      padding-top: 12em;
+    }
+}
+
 /* 
   End Navigation Bar
 */
