@@ -6,8 +6,8 @@
 
 [class^='grid-col-'] {
 	float: left;
-	padding-right: 2.5em; 
-	padding-left: 2.5em; 
+	padding-right: 2em; 
+	padding-left: 2em; 
 }
 
 /* 5-COLUMN GRID SYSTEM */
@@ -63,11 +63,6 @@
 	display: block;
 	clear: both;
 }
-
-/*.grid-col-1of4 > .nav-main-item {
-	width: 100%;
-}
-*/
 
 body {
 	padding-top: 5rem;
