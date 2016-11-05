@@ -161,6 +161,7 @@ figure {
 .category-box {
   display:inline-block;
   background-color: #3F6FEA;
+  background-image: url(altron-gundam.jpg);
   border: 1em solid white;
   padding: 70px 0;
   -webkit-transition: background-color 0.5s ease-out;
