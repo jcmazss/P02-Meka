@@ -78,27 +78,11 @@ figure {
   overflow: auto;
 }
 
-@media (max-width: 48.75em) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  h2 {
-    font-size: 1.25rem;
-  }
-
-  h3 {
-    font-size: 1rem;
-  }
-
-  .main-content {
-    margin:0.25em;
-  }
-}
-
 /* Styling for typical button */
 .button-purchase {
   display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 1em;
   padding: 1em 5em;
   color: #FFFFFF;
   background-color: #3F6FEA;
@@ -112,6 +96,34 @@ figure {
 .button-purchase:hover, .button-purchase:focus {
   background-color: #1A4CCE;
 }
+
+/* Mobile Responsiveness*/
+@media (max-width: 48.75em) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  p, li {
+    font-size: 0.9rem;
+  }
+
+  .main-content {
+    margin:0.25em;
+  }
+
+  .button-purchase {
+    width: 100%;
+  }
+}
+
 
 /* Main Navigation Bar */
 ul.nav-bar {
@@ -547,23 +559,6 @@ input[type=text] {
   COMBINED ELEMENTS
 */
 
-/* Styling for the main navigation */
-li.nav-bar-example {
-    float: left;
-}
-
-li.nav-bar-example a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li.nav-bar-example a:hover {
-    color: #3F6FEA;
-    font-weight: bold;
-}
 
 /* Styling for the features section */
 .feature-section {
@@ -808,21 +803,6 @@ margin-bottom: 1em;
   min-height: 7em;
 }
 
-/* Styling for the purchase button */
-.button-purchase {
-  display: inline-block;
-  padding: 1em 5em;
-  color: #FFFFFF;
-  background-color: #3F6FEA;
-  border-radius: 0.15em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
-}
-
-.button-purchase:hover, .button-purchase:focus {
-  background-color: #999;
-}
 
 /* Styling for the grid structure */
 .row {

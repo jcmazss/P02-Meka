@@ -10,6 +10,11 @@
 	padding-left: 2em; 
 }
 
+.grid-empty-col {
+	float: left;
+	width: 8.33%;
+}
+
 /* 5-COLUMN GRID SYSTEM */
 
 .grid-col-1of5 {
@@ -77,11 +82,11 @@ body {
 		padding-left: 1em; 
 	}
 
-	.grid-col-1of6, .grid-col-2of6, .grid-col-4of6, .grid-col-5of6  {
+	.grid-col-1of6, .grid-col-2of6, .grid-col-5of6  {
 		width: 50%;
 	}
 
-	.grid-col-3of6, .grid-col-6of6, .grid-col-1of3 {
+	.grid-col-3of6, .grid-col-4of6, .grid-col-6of6, .grid-col-1of3 {
 		width: 100%;
 	}
 
