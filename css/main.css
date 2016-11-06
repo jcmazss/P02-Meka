@@ -223,6 +223,7 @@ li.nav-bar-element a:hover, .active {
   font-weight: bold;
 }
 
+/* Main navigation reponsiveness for Mobile */
 @media screen and (max-width: 48.75em){
     ul.nav-bar li.nav-brand {
       float: none;
