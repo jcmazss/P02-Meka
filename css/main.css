@@ -1,8 +1,7 @@
 /*
-  GENERAL WEBPAGE STYLING 
-  Default styling for the webpages
+  GENERAL STYLING 
+  Default styling for all the webpages
 */  
-
 
 body {
   font-family: "Avenir", sans-serif;
@@ -72,6 +71,7 @@ figure {
   float:left;
 }
 
+/* Webpage Body Content */
 .main-content {
   margin: 1em;
   padding-bottom: 2em;  
@@ -79,9 +79,8 @@ figure {
 }
 
 @media (max-width: 48.75em) {
-  
   h1 {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   h2 {
@@ -97,76 +96,24 @@ figure {
   }
 }
 
-/*
-  HOME PAGE STYLING
-*/
-
-.hero {
-  width: 100%;
-  height: 500px;
-  text-align: center;
-  margin: 0 auto;
-  background: #F7DB7E;
-  position: relative;   
-  color: #392f28;
-}
-
-.hero h1 {
-  font-size: 3em;
-  margin: auto;
-  position: absolute; 
-  top: 5em;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.category-box {
-  margin:0;
-  padding: 5em;
-  display:inline-block;
+/* Styling for typical button */
+.button-purchase {
+  display: inline-block;
+  padding: 1em 5em;
+  color: #FFFFFF;
   background-color: #3F6FEA;
-  opacity: 0.9;
-  border: 1em solid white;
+  border-radius: 0.15em;
+  text-decoration: none;
+  text-align: center;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
 
-.category-box:hover, .category-box:focus {
-  background-color: #F7DB7E;
+.button-purchase:hover, .button-purchase:focus {
+  background-color: #1A4CCE;
 }
 
-.category-box h3 {
-  text-align: center;
-  color: white;
-}
-
-@media (max-width: 48.75em) {
-  .category-box {
-    margin:0;
-    padding: 3em;
-    display:inline-block;
-    background-color: #3F6FEA;
-    opacity: 0.9;
-    border: 1em solid white;
-    -webkit-transition: background-color 0.5s ease-out;
-    transition: background-color 0.5s ease-out;
-  }
-
-  .category-box:hover, .category-box:focus {
-    background-color: #F7DB7E;
-  }
-
-  .category-box h3 {
-    text-align: center;
-    color: white;
-  }
-}
-
-/* 
-  Navigation Bar 
-*/
-
+/* Main Navigation Bar */
 ul.nav-bar {
   list-style-type: none;
   margin: 0;
@@ -213,7 +160,8 @@ li.nav-bar-element a:hover, .active {
   font-weight: bold;
 }
 
-/* Main navigation reponsiveness for Mobile */
+/* Mobile Responsiveness (Navigation Bar) */
+/* Default state - hide all elements */
 @media screen and (max-width: 48.75em){
     ul.nav-bar li.nav-bar-element {
       display: none;
@@ -226,7 +174,7 @@ li.nav-bar-element a:hover, .active {
     }
 }
 
-/* Main navigation reponsiveness for Mobile */
+/* Active state - show all elements and hamburger menu */
 @media screen and (max-width: 48.75em){
     ul.nav-bar.responsive {
       position: relative;
@@ -253,10 +201,80 @@ li.nav-bar-element a:hover, .active {
     }
 }
 
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+
 /*
-  INDIVIDUAL PRODUCT STYLING
+  HOME PAGE STYLING
+  Styling and elements for the home page
 */
 
+/* Header image */
+.hero {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  background: #F7DB7E;
+  position: relative;   
+  color: #392f28;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin: auto;
+  position: absolute; 
+  top: 5em;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* Product Categories */
+.category-box {
+  margin:0;
+  padding: 5em;
+  display:inline-block;
+  background-color: #3F6FEA;
+  opacity: 0.9;
+  border: 1em solid white;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.category-box:hover, .category-box:focus {
+  background-color: #F7DB7E;
+}
+
+.category-box h3 {
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 48.75em) {
+  .category-box {
+    margin:0;
+    padding: 3em;
+    display:inline-block;
+    background-color: #3F6FEA;
+    opacity: 0.9;
+    border: 1em solid white;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*
+  INDIVIDUAL PRODUCT PAGE STYLING
+  Styling and elements for a product page
+*/
+
+/* Content Container */
 .content-container {
   width: 100%;
   overflow: auto;
@@ -274,26 +292,8 @@ li.nav-bar-element a:hover, .active {
   padding-bottom: 2em;
 }
 
-@media (max-width: 48.75em) {
-  .content-container {
-
-  }
-
-}
-
-
-
-
-
-
-
-/*
-  INTERACTIVE ELEMENTS
-*/
-
-/* Styling for star rating*/
-/*https://css-tricks.com/star-ratings/*/
-
+/* Star Rating */
+/* Reference: https://css-tricks.com/star-ratings/*/
 .rating {
   unicode-bidi: bidi-override;
   direction: rtl;
@@ -312,6 +312,14 @@ li.nav-bar-element a:hover, .active {
   color: #F7DB7E;
 }
 
+
+
+
+
+
+/*
+  INTERACTIVE ELEMENTS
+*/
 
 /* Styling for popup modal */
 .modal {
@@ -386,44 +394,6 @@ li.nav-bar-element a:hover, .active {
   text-align: left;
 }
 
-/* Styling for the in-text link */
-.text-link {
-  color: #3F6FEA;
-}
-
-/* Styling for the navigation button */
-.button-purchase {
-  display: inline-block;
-  padding: 1em 5em;
-  color: #FFFFFF;
-  background-color: #3F6FEA;
-  border-radius: 0.15em;
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
-}
-
-.button-purchase:hover, .button-purchase:focus {
-  background-color: #999;
-}
-
-
-/* Styling for the submit button */
-.button-submit { 
-  display: inline-block;
-  padding: 1em 2.5em;
-  color: #000000;
-  background-color: #D8D8D8;
-  border-radius: 0.15em;
-  text-decoration: none;
-  -webkit-transition: background-color 0.35s ease-out;
-  transition: background-color 0.35s ease-out;
-}
-
-.button-submit:hover, .button-submit:focus {
-  background-color: #999;
-}
 
 
 /* Styling for the text input field */
