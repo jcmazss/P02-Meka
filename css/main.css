@@ -74,8 +74,7 @@ figure {
 
 .main-content {
   margin: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;  
+  padding-bottom: 2em;  
   overflow: auto;
 }
 
@@ -261,7 +260,17 @@ li.nav-bar-element a:hover, .active {
   margin: 0;
   padding-top: 2em;
   padding-bottom: 2em;
+  border-bottom: 0.05em solid #D8D8D8;
 }
+
+.content-container-bottom {
+  width: 100%;
+  overflow: auto;
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 
 
 
