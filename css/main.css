@@ -42,8 +42,9 @@ h4 {
 }
 
 p {
-  padding-bottom: 0.5em;
   margin:0;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 
 section p {
@@ -72,7 +73,9 @@ figure {
 }
 
 .main-content {
-  margin: 1em;  
+  margin: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;  
   overflow: auto;
 }
 
@@ -248,9 +251,19 @@ li.nav-bar-element a:hover, .active {
     }
 }
 
-/* 
-  End Navigation Bar
+/*
+  INDIVIDUAL PRODUCT STYLING
 */
+
+.content-container {
+  width: 100%;
+  overflow: auto;
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
 
 /*
   INTERACTIVE ELEMENTS
