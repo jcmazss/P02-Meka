@@ -10,6 +10,11 @@
 	padding-left: 2em; 
 }
 
+.grid-empty-col {
+	width:20%;
+	background-color: white;
+}
+
 /* 5-COLUMN GRID SYSTEM */
 
 .grid-col-1of5 {
