@@ -68,8 +68,14 @@ body {
 	padding-top: 5rem;
 }
 
-/* Media Query for */
+/* Media Query for Mobile*/
 @media (max-width: 48.75em) {
+	
+	[class^='grid-col-'] {
+		float: left;
+		padding-right: 1em; 
+		padding-left: 1em; 
+	}
 
 	.grid-col-1of6 {
 		width: 50%;
@@ -94,22 +100,6 @@ body {
 	.grid-col-1of3 {
 		width: 100%;
 	}
-
-	/*.grid-col-1of2 {
-		width: 50%;
-	}
-
-	.grid-col-1of2:last-of-type {
-		padding-left: 1rem;
-	}
-
-	.grid-col-1of4 {
-		width: 50%;
-	}
-
-	body {
-		padding-top: 2rem;
-	}*/
 }
 
 
