@@ -10,13 +10,34 @@
 	padding-left: 2em; 
 }
 
+/* FILLER COLUMN SYSTEM */
 .grid-empty-col {
 	float: left;
 	width: 8.33%;
 }
 
-/* 5-COLUMN GRID SYSTEM */
+/* 3-COLUMN GRID SYSTEM */
+.grid-gallery-1of3 {
+	margin: 0;
+	float: left;
+	width: 33.33%;
+	padding-right: 1em;
+}
 
+.grid-gallery-2of3 {
+	float: left;
+	width: 66.66%;
+	padding-right: 1em;
+}
+
+.grid-gallery-3of3 {
+	float: left;
+	width: 100%;
+	padding-right: 1em;
+}
+
+
+/* 5-COLUMN GRID SYSTEM */
 .grid-col-1of5 {
 	width: 20%;
 }
@@ -38,7 +59,6 @@
 }
 
 /* 6-COLUMN GRID SYSTEM */
-
 .grid-col-1of6 {
 	width: 16.66%;
 }
@@ -91,6 +111,11 @@ body {
 	}
 
 	.grid-col-1of5, .grid-col-2of5, .grid-col-3of5, .grid-col-4of5, .grid-col-5of5 {
+		width: 100%;
+	}
+
+	.grid-gallery-1of3 {
+		float: left;
 		width: 100%;
 	}
 }
