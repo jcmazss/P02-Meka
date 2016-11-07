@@ -371,7 +371,6 @@ li.subscribe-component {
   background-color: white;
   margin: auto;
   padding: 0;
-  border: 1px solid #888;
   width: 75%;
   height: 100%;
   -webkit-animation-name: animatetop;
@@ -390,6 +389,29 @@ li.subscribe-component {
   to {top:0; opacity:1}
 }
 
+.modal-header {
+  padding: 1em;
+  background-color: #3F6FEA;
+  color: white;
+}
+
+.modal-header h3 {
+  text-align: center;
+  margin:0;
+  padding:1em;
+}
+
+.modal-body {
+  padding: 1em;
+}
+
+.modal-body p {
+  padding-top: 1em;
+  text-align: left;
+}
+
+
+
 .close {
   color: white;
   float: right;
@@ -403,26 +425,6 @@ li.subscribe-component {
   cursor: pointer;
 }
 
-.modal-header {
-  padding: 2px 16px;
-  background-color: #3F6FEA;
-  color: white;
-}
-
-.modal-header h3 {
-  text-align: center;
-  margin:0;
-  padding:1em;
-}
-
-.modal-body {
-  padding: 2px 16px;
-}
-
-.modal-body p {
-  padding-top: 1em;
-  text-align: left;
-}
 
 
 
@@ -437,7 +439,6 @@ li.subscribe-component {
 .general-forms fieldset{
   border: none;
   margin: 0;
-  padding: 0;
   padding-left: 1em;
   padding-right: 1em;
   width: 100%;
@@ -486,6 +487,7 @@ input[type=text] {
 .divider-bottom {
   color: #392f28;  
   border-bottom: 0.05em solid #D8D8D8;
+  padding-top: 1em;
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
@@ -503,17 +505,16 @@ input[type=text] {
   template-account.html
 */
 @media (max-width: 48.75em) {
-
   .divider-left {  
     border-right: none;
   }
 }
 
-.order-item h3{
+  .order-item h3{
     margin: 0;
 }
 
-.order-item p{
+  .order-item p{
   margin: 0;
   margin-top: 0.5em;
 }
@@ -525,21 +526,6 @@ input[type=text] {
 /*
   TEXT STYLING
 */
-
-/* Styling for headers */
-.heading-1 {
-  font-size: 2rem;
-  font-weight: bolder;
-}
-
-.heading-2 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.heading-3 {
-  font-size: 1.25rem;
-}
 
 /*Styling for paragraph*/
 .center-text {
@@ -807,10 +793,10 @@ margin-bottom: 1em;
 }
 
 .form-contact fieldset {
-  border:0;
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
-
-.form-contact 
 
 .form-contact input[type=text] {
   border-bottom: 1px solid black;

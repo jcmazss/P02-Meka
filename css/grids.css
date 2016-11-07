@@ -106,11 +106,11 @@ body {
 		width: 50%;
 	}
 
-	.grid-col-1of3 {
+	.grid-col-1of3, .grid-col-3of6 {
 		width: 100%;
 	}
 
-	.grid-col-2of6, .grid-col-3of6, .grid-col-4of6, .grid-col-5of6, .grid-col-6of6,  {
+	.grid-col-2of6, .grid-col-4of6, .grid-col-5of6, .grid-col-6of6,  {
 	 	width: 100%;
 	}
 
