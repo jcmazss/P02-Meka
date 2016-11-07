@@ -101,7 +101,7 @@ a {
   background-color: #1A4CCE;
 }
 
-/* Mobile Responsiveness*/
+/* Mobile Responsiveness (General) */
 @media (max-width: 48.75em) {
   h1 {
     font-size: 1.5rem;
@@ -217,6 +217,43 @@ li.nav-bar-element a:hover, .active {
     }
 }
 
+/* Footer Bar */
+ul.footer-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 2em;
+  overflow: hidden;
+  background-color: #2C2B2B;
+  z-index: 1;  
+}
+
+li.footer-bar-element {
+  float: left;
+}
+
+li.footer-bar-element a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+}
+
+li.footer-bar-element a:hover, .active {
+  font-weight: bold;
+}
+
+li.subscribe-component {
+    float: right;
+}
+
+/* Mobile Responsiveness (Footer)*/
+@media (max-width: 48.75em) {
+  ul.footer-bar {
+  }
+}
+
+
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -225,27 +262,6 @@ li.nav-bar-element a:hover, .active {
   HOME PAGE STYLING
   Styling and elements for the home page
 */
-
-/* Header image */
-.hero {
-  width: 100%;
-  height: 500px;
-  text-align: center;
-  margin: 0 auto;
-  background: #F7DB7E;
-  position: relative;   
-  color: #392f28;
-}
-
-.hero h1 {
-  font-size: 3em;
-  margin: auto;
-  position: absolute; 
-  top: 5em;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
 
 /* Product Categories */
 .category-box {
@@ -295,8 +311,8 @@ li.nav-bar-element a:hover, .active {
   width: 100%;
   overflow: auto;
   margin: 0;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
   border-bottom: 0.05em solid #D8D8D8;
 }
 
@@ -304,8 +320,8 @@ li.nav-bar-element a:hover, .active {
   width: 100%;
   overflow: auto;
   margin: 0;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 /* Star Rating */
@@ -319,15 +335,16 @@ li.nav-bar-element a:hover, .active {
   display: inline-block;
   position: relative;
   width: 1.1em;
+    color: #F7DB7E;
+
 }
 
-.rating > span:hover:before,
+/*.rating > span:hover:before,
 .rating > span:hover ~ span:before {
   content: "\2605";
   position: absolute;
-  color: #F7DB7E;
 }
-
+*/
 
 
 
@@ -861,38 +878,3 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/  */
   border-bottom: 0.05em solid #D8D8D8;
   background-color: purple;
 }
-
-/* 
-  Footer Bar
-*/
-ul.footer-bar {
-  list-style-type: none;
-  margin: 0;
-  padding: 2em;
-  overflow: hidden;
-  background-color: #2C2B2B;
-  z-index: 1;  
-}
-
-li.footer-bar-element {
-  float: left;
-}
-
-li.footer-bar-element a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 1em;
-  text-decoration: none;
-}
-
-li.footer-bar-element a:hover, .active {
-  font-weight: bold;
-}
-
-li.subscribe-component {
-    float: right;
-}
-
-/*
-  End Footer Bar
