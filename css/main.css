@@ -61,7 +61,7 @@ section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
   line-height: 2em;
-  float: both;
+  /*float: both;*/
 }
 
 figure {
@@ -616,7 +616,7 @@ input[type=text] {
   transition: color 0.5s ease-out;
 }
 
-.product-header a:hover, ..product-header a:focus {
+.product-header a:hover, .product-header a:focus {
   color: #F7DB7E;
 }
 
