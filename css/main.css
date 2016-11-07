@@ -75,6 +75,10 @@ a {
   text-decoration: none;
 }
 
+a:hover, a:visited {
+  text-decoration: none;
+}
+
 /* Webpage Body Content */
 .main-content {
   margin: 1em;
@@ -156,6 +160,10 @@ li.nav-brand {
   text-align: center;
   padding: 1em;
   text-decoration: none;
+}
+
+li.nav-brand a:visited {
+  color: #3F6FEA;
 }
 
 li.nav-bar-element {
@@ -247,13 +255,6 @@ li.subscribe-component {
     float: right;
 }
 
-/* Mobile Responsiveness (Footer)*/
-@media (max-width: 48.75em) {
-  ul.footer-bar {
-  }
-}
-
-
 
 /*---------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -266,22 +267,42 @@ li.subscribe-component {
 /* Product Categories */
 .category-box {
   margin:0;
-  padding: 5em;
+  padding: 1em;
   display:inline-block;
-  background-color: #3F6FEA;
-  opacity: 0.9;
-  border: 1em solid white;
+  background-color: white;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
 
 .category-box:hover, .category-box:focus {
-  background-color: #F7DB7E;
+  background-color: #3F6FEA;
+}
+
+.category-box img {
+  margin: 0;
 }
 
 .category-box h3 {
+  margin: 0;
+  padding-bottom: 1em;
   text-align: center;
-  color: white;
+  color: black;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 48.75em) {
+  .category-box {
+    margin:0;
+    padding: 3em;
+    display:inline-block;
+    background-color: white;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+  }    
+
+  .category-box:hover, .category-box:focus {
+    background-color: white;
+  }
 }
 
 /* Styling for the product view */
