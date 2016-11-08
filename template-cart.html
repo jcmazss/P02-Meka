@@ -137,20 +137,32 @@
 					<h3> Total: $124.32 </h3>
 
 				<!-- Confirm Button -->
-					<a class="button-purchase">Confirm Payment</a>
+					<a id="modal-button" class="button-purchase">Confirm Payment</a>
 
 				<!-- Thank You Popup-->
-					<div class="modal">
-					  <div class="modal-content">
-					    <div class="modal-header">
-					      <span class="close"><a href="template-products.html">x</a></span>
-					      <h3>Thank you for your purchase</h3>
-					    </div>
-					    <div class="modal-body">
-					      <p>
-					      	Feel free to write a review for our products. It would be super helpful to us and your fellow customers. Be honest, shop lots, and cheers!
-					      </p>
-					    </div>
+					<div id="modal-popup" class="modal">
+						<div class="modal-content">
+						    <div class="modal-header">
+						      <span class="close"><a href="template-products.html">x</a></span>
+						      <h3>Confirmed Order</h3>
+						    </div>
+
+						    <div class="modal-body">
+						    	<p>
+						      		Thank you for purchasing from us - we have received your order and will ship to you as soon as possible. Would you like to receive shipment tracking notifications? 
+						      	</p>
+
+						      	<form action="#" class="form-contact">
+									<fieldset>
+										<input type="text" placeholder="Your email address">
+										<a class="button-purchase" href="template-cart.html">Submit Email</a>
+									</fieldset>
+								</form>
+
+								<p>	
+						      		Also, feel free to write a review for your purchases when you receive them. It would be super helpful to us and your fellow customers!
+						      	</p>
+						    </div>
 					  </div>
 					</div>
 				</div>

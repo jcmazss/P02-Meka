@@ -1,8 +1,10 @@
+// Reference: http://www.w3schools.com/howto/howto_css_modals.asp 
+
 // Get the modal
-var modal = document.getElementById('myModal');
+var modal = document.getElementById('modal-popup');
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("modal-button");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
