@@ -133,6 +133,12 @@ a, a:hover, a:visited {
   .button-purchase {
     width: 100%;
   }
+
+  .clearfix-2 {
+  border: 1px solid #000000;
+  overflow: hidden;
+  width: 100%;
+  }
 }
 
 
