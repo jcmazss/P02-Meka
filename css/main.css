@@ -108,6 +108,8 @@ a, a:hover, a:visited {
   background-color: #1A4CCE;
 }
 
+
+
 /* Mobile Responsiveness (General) */
 @media (max-width: 48.75em) {
   h1 {
@@ -135,6 +137,12 @@ a, a:hover, a:visited {
   }
 
   .clearfix-2 {
+  border: 1px solid #000000;
+  overflow: hidden;
+  width: 100%;
+  }
+
+  .clearfix-6 {
   border: 1px solid #000000;
   overflow: hidden;
   width: 100%;
@@ -680,6 +688,11 @@ input[type=text] {
 }
 
 .product-content {
+  width: 100%;
+  overflow: auto;
+}
+
+.newest-arrivals {
   width: 100%;
   overflow: auto;
 }
