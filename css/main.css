@@ -137,13 +137,13 @@ a, a:hover, a:visited {
   }
 
   .clearfix-2 {
-  border: 1px solid #000000;
+  /*border: 1px solid #000000;*/
   overflow: hidden;
   width: 100%;
   }
 
   .clearfix-6 {
-  border: 1px solid #000000;
+  /*border: 1px solid #000000;*/
   overflow: hidden;
   width: 100%;
   }
