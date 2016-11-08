@@ -16,6 +16,15 @@
 	width: 8.33%;
 }
 
+.grid-1of2 {
+	width: 50%;
+}
+
+.grid-2of2 {
+	width: 100%;
+}
+
+
 /* 3-COLUMN GRID SYSTEM */
 .grid-gallery-1of3 {
 	margin: 0;
