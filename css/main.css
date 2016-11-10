@@ -698,6 +698,11 @@ input[type=text] {
 }
 
 @media (max-width: 48.75em) {
+  .indent{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
   .product-content {
     width: 100%;
     overflow:auto;
@@ -725,6 +730,7 @@ input[type=text] {
   }
 
   .grid-col-2of6 {
+    width: 100%;
     margin: 0;
     padding: 0;
     padding-left: 0.25em;
