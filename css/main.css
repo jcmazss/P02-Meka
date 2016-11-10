@@ -724,6 +724,13 @@ input[type=text] {
     padding-right: 0.25em;
   }
 
+  .grid-col-2of6 {
+    margin: 0;
+    padding: 0;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+  }
+
   .product-view {
     text-align: left;
     padding-bottom: 2em;
